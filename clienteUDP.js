@@ -41,7 +41,7 @@ function iniciarCliente(datoEnviar) {
             console.log("error", error);
             client.close();
         } else {
-            console.log('Dato enviado al cliente!!!');
+            console.log('Dato enviado al servidor!!!');
         }
     });
 
